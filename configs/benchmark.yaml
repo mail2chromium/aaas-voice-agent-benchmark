@@ -1,0 +1,60 @@
+# AaaS vs SaaS Benchmark Configuration
+
+benchmark:
+  iterations: 100
+  warmup: 10
+  timeout_ms: 30000
+  regions:
+    - us-east-1
+    - eu-west-1
+    - ap-south-1  # Asia - Lahore
+
+saas_stack:
+  crm:
+    provider: salesforce
+    plan: enterprise
+    cost_per_seat: 150.0
+    seats: 8
+  support:
+    provider: zendesk
+    plan: professional
+    cost_per_seat: 89.0
+    seats: 5
+  analytics:
+    provider: mixpanel
+    plan: growth
+    cost_per_month: 89.0
+  scheduling:
+    provider: calendly
+    plan: teams
+    cost_per_seat: 12.0
+    seats: 8
+  messaging:
+    provider: intercom
+    plan: pro
+    cost_per_seat: 74.0
+    seats: 3
+
+aaas_stack:
+  stt:
+    provider: deepgram
+    model: nova-3
+    cost_per_minute: 0.0043
+  llm:
+    provider: openai
+    model: gpt-4o
+    cost_per_1k_tokens: 0.005
+  tts:
+    provider: elevenlabs
+    model: eleven_flash_v2_5
+    cost_per_character: 0.00003
+  orchestrator:
+    provider: livekit
+    plan: cloud
+    base_cost_per_month: 50.0
+
+performance_targets:
+  max_latency_p50_ms: 500
+  max_latency_p95_ms: 1000
+  min_resolution_rate: 0.90
+  min_satisfaction_score: 4.5
