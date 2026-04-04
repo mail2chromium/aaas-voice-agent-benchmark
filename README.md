@@ -6,7 +6,7 @@
 
 > **SaaS charges for ACCESS. AaaS charges for OUTCOMES.**
 
-Benchmark suite comparing traditional SaaS API workflows against Agentic AI (AaaS) replacements. Measures cost, latency, accuracy, and throughput - with real production data.
+Benchmark suite comparing traditional SaaS API workflows against** Agentic AI (AaaS)** replacements. Measures cost, latency, accuracy, and throughput - with real production data.
 
 ## Results Summary
 
