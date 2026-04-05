@@ -110,13 +110,6 @@ This benchmark accompanies the Medium article: **"SaaS is Dead, Welcome to AaaS 
 
 Read the full analysis: [Medium Article](https://medium.com/@BeingOttoman/-f0bf9b920b01)
 
-## Author
-
-**Muhammad Usman Bashir** — CTO @ [RTC League](https://rtcleague.com)
-- U.S. Patent holder in WebRTC
-- 2025 UAE Real-Time AI Award winner
-- Forbes 40 Under 40
-
 ## License
 
 MIT License — use freely, attribution appreciated.
