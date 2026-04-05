@@ -108,7 +108,7 @@ aaas_stack:
 
 This benchmark accompanies the Medium article: **"SaaS is Dead, Welcome to AaaS (Agentic as a Service)"** by Muhammad Usman Bashir.
 
-Read the full analysis: [Medium Article](https://medium.com/@BeingOttoman)
+Read the full analysis: [Medium Article](https://medium.com/@BeingOttoman/-f0bf9b920b01)
 
 ## Author
 
